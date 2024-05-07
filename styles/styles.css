@@ -1,3 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.box {
+  margin: 1rem;
+  border: 1px solid rgba(194, 241, 22, 0.1);
+  padding: 1rem;
+  background-color: #ddd;
+  color: #2b3fee;
+}
+
+
 nav {
     background-color: greenyellow;
     padding: 10px;
@@ -63,3 +83,54 @@ nav {
   footer {
     text-align: center; 
   }
+
+  
+/* Universal Selector */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Class Selectors */
+.box {
+  margin: 1rem;
+  border: 1px solid rgba(240, 1, 101, 0.1);
+  padding: 1rem;
+  background-color: #2fadc4;
+  color: #000;
+}
+
+aside {
+  width: 20em;
+  text-align: center;
+}
+
+  aside img {
+    float: right;
+  }
+  aside {
+    width: 20em;
+    text-align: center;
+    position: relative; 
+  }
+  
+  aside .header { /* Select the header element */
+    position: absolute; /* Absolute positioning */
+    top: 0; /* Top position */
+    left: 0; /* Left position */
+  }
+  aside img {
+    width: 200px;
+    height: auto;
+  }
+  aside .image-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.5); 
+    padding: 10px;
+    color: white;
+  }
+ 
