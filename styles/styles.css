@@ -1,10 +1,8 @@
-
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-
 
 nav {
   background-color: greenyellow;
@@ -20,16 +18,20 @@ nav a {
   padding: 20px;
 }
 
-
 header {
-  text-align: center;
+  display: grid;
+  grid-template-columns: auto 1fr;
+}
+
+nav {
+  display: flex;
+  justify-content: flex-end;
 }
 
 h1 {
   color: blueviolet;
   border-bottom: 1px solid #000;
 }
-
 
 img {
   width: 150px;
@@ -39,18 +41,15 @@ img {
   box-shadow: 0 0 30px white;
 }
 
-
 p {
   padding: 10px;
 }
-
 
 footer {
   margin-top: 15px;
   border-top: 1px solid #000;
   text-align: center;
 }
-
 
 .box {
   margin: 1rem;
@@ -59,7 +58,6 @@ footer {
   border: 1px solid rgba(240, 1, 101, 0.1);
   color: #000;
 }
-
 
 aside {
   width: 20em;
@@ -88,7 +86,6 @@ aside .image-text {
   padding: 10px;
   color: white;
 }
-
 
 .grid {
   display: grid;
